@@ -9,6 +9,8 @@ import { customStyles } from '../Styles/CustomStyleModal';
 import { useForm, Controller } from 'react-hook-form';
 import { EmployeeContext } from '../Context/EmployeeProvider'; // Importer le contexte
 // import { Select } from '../Componnents/Select';
+import states from '../Data/state.json'
+import department from '../Data/department.json'
 
 // test compo importé
 import { Select } from 'react-select-component-animated/dist/Select';
@@ -36,12 +38,14 @@ export const Home = () => {
             <div className={styles.container}>
                 <form className={styles.createEmployee} onSubmit={handleSubmit(onSubmit)}>
                     <InputForm
+                        className={styles.inputName}
                         labelName='firstName'
                         inputType='text'
                         labelFor='first_name'
                         register={register}
                     />
                     <InputForm
+                        className={styles.inputName}
                         labelName='lastName'
                         inputType='text'
                         labelFor='last_name'
@@ -54,12 +58,14 @@ export const Home = () => {
 
                     <div className={styles.adress}>
                         <InputForm
+                            className={styles.inputName}
                             labelName='street'
                             inputType='text'
                             labelFor='street'
                             register={register}
                         />
                         <InputForm
+                            className={styles.inputName}
                             labelName='city'
                             inputType='text'
                             labelFor='city'
@@ -72,7 +78,7 @@ export const Home = () => {
                             render={({ field }) => (
                                 <Select
                                     label='State'
-                                    options={['a', 'b', 'c', 'd']}
+                                    options={states}
                                     searchInput={true}
                                     fadeInDuration={'1.5s'}
                                     fadeOutDuration={'1.5s'}
@@ -86,6 +92,7 @@ export const Home = () => {
                         />
 
                         <InputForm
+                            className={styles.inputName}
                             labelName='zipCode'
                             inputType='number'
                             labelFor='zip_code'
@@ -100,7 +107,7 @@ export const Home = () => {
                         render={({ field }) => (
                             <Select
                                 label='Department'
-                                options={['a', 'v', 'c', 's']}
+                                options={department}
                                 onChange={field.onChange}
                                 value={field.value}
                                 searchInput={true}
@@ -112,8 +119,8 @@ export const Home = () => {
                     />
 
                     <div>Home</div>
-                    <Link to='employee-list'>Employee List</Link>
-                    <button type="submit" onClick={handleOpenModal}>Save Employee</button>
+                    <Link to='employee-list' className={styles.employeeListPage}>Employee List</Link>
+                    <button className={styles.submitForm} type="submit" onClick={handleOpenModal}>Save Employee</button>
                     <Modal
                         isOpen={showModal}
                         contentLabel="Minimal Modal Example"

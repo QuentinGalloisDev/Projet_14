@@ -21,3 +21,15 @@
     flex-direction: column;
     align-items: center;
 }
+
+.inputName {
+    margin: 15px 15px;
+}
+
+.submitForm {
+    margin: 15px 15px;
+}
+
+.employeeListPage {
+    margin: 15px 15px;
+}

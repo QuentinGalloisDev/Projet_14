@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Grid } from "gridjs";
 import "gridjs/dist/theme/mermaid.css";
 import { EmployeeContext } from '../Context/EmployeeProvider'; // Importer le contexte
+// import EmployeeListMocked from '../Data/employeeListMocked.json'
 
 export const EmployeeList = () => {
     // Grid.js nécessite une référence directe à un élément DOM pour initialiser ou manipuler le tableau.
@@ -34,7 +35,7 @@ export const EmployeeList = () => {
                 employee.lastName,
                 employee.startDate,
                 employee.department,
-                employee.birthDate,
+                employee.DateofBirth,
                 employee.street,
                 employee.city,
                 employee.state,
@@ -54,15 +55,13 @@ export const EmployeeList = () => {
 
     return (
         <div>
-            {/* <Header></Header> */}
-            <select onChange={(e) => { setEntries(parseInt(e.target.value, 10)) }}>
+            <select aria-label="Nombre d'employés affichés" onChange={(e) => { setEntries(parseInt(e.target.value, 10)) }}>
                 <option value="10">10</option>
                 <option value="25">25</option>
                 <option value="50">50</option>
                 <option value="100">100</option>
             </select>
             <div ref={wrapperRef} />
-            {/* <Footer /> */}
         </div>
     )
 }

@@ -1,11 +1,11 @@
 import {
     Link
 } from "react-router-dom";
-
+import styles from '../Styles/Header.module.css'
 export const Header = () => {
     return (
-        <div>
-            <Link to='/'><img src='/Logo_HRNET.png' alt='Logo de HRnet'></img></Link>
+        <div className={styles.header}>
+            <Link to='/'><img className={styles.logoHrNet} src='/Logo_HRNET.webp' alt='Logo de HRnet'></img></Link>
         </div>
     )
 }

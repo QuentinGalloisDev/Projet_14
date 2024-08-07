@@ -2,7 +2,6 @@
   "name": "p_14",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://QuentinGalloisDev.github.io/Projet_14",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -10,8 +9,6 @@
     "@vaadin/date-picker": "^24.4.4",
     "@vaadin/react-components": "^24.4.0",
     "@vaadin/vaadin-date-picker": "^23.5.3",
-    "animated-react-select-component": "^1.0.0",
-    "animated-select-component": "^1.0.1",
     "date-picker-react": "^1.0.2",
     "gridjs": "^6.2.0",
     "prop-types": "^15.8.1",
@@ -22,7 +19,7 @@
     "react-modal": "^3.16.1",
     "react-router-dom": "^6.24.1",
     "react-scripts": "5.0.1",
-    "react-select-component-animated": "^0.4.0",
+    "react-select-component-animated": "^1.0.9",
     "styled-react-modal": "^3.1.1",
     "web-vitals": "^2.1.4"
   },
@@ -30,9 +27,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

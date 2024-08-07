@@ -1,0 +1,15 @@
+.logoHrNet {
+    width: 136px;
+    height: 146px;
+}
+
+.header {
+    margin-bottom: 12px;
+}
+
+@media all and (max-width: 1024px) {
+    .logoHrNet {
+        width: 20%;
+        height: 22%;
+    }
+}
