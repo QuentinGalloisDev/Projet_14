@@ -9,7 +9,7 @@ export const EmployeeList = () => {
     // Grid.js nécessite une référence directe à un élément DOM pour initialiser ou manipuler le tableau.
     const wrapperRef = useRef(null);
     let [entries, setEntries] = useState(10);
-    // Importer le theme pour l'utiliser dans le tableau
+    // Importer le context pour l'utiliser dans le tableau
     const { employees } = useContext(EmployeeContext); // Utiliser le contexte
 
     useEffect(() => {
@@ -35,7 +35,7 @@ export const EmployeeList = () => {
                 employee.lastName,
                 employee.startDate,
                 employee.department,
-                employee.DateofBirth,
+                employee.birthDate,
                 employee.street,
                 employee.city,
                 employee.state,
