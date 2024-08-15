@@ -1,78 +1,92 @@
-# Projet HrNet
-![logo HRNET removedBG](https://github.com/user-attachments/assets/464c73f6-6366-41fc-b917-3e1bcdd2bf78)
+# Projet_14
 
-# Getting Started with Create React App
+![Contributors](https://img.shields.io/github/contributors/QuentinGalloisDev/Projet_14?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/QuentinGalloisDev/Projet_14?style=for-the-badge)
+![Stargazers](https://img.shields.io/github/stars/QuentinGalloisDev/Projet_14?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/QuentinGalloisDev/Projet_14?style=for-the-badge)
+![License](https://img.shields.io/github/license/QuentinGalloisDev/Projet_14?style=for-the-badge)
 
-This project was bootstrapped with 
-* [![React][React.js]][React-url]
+<p align="center">
+  <a href="https://github.com/QuentinGalloisDev/Projet_14">
+    <img src="https://user-images.githubusercontent.com/63110699/126578754-3aabb215-3cd0-4645-87aa-ec3f90d49d6f.png" alt="Logo" width="80" height="80">
+  </a>
+</p>
 
-## Available Scripts
-### Before run 
+<p align="center">
+  Projet d'application web permettant de gérer les employés d'une entreprise.
+  <br />
+  <a href="https://github.com/QuentinGalloisDev/Projet_14"><strong>Explorez la documentation »</strong></a>
+  <br />
+  <br />
+  <a href="https://github.com/QuentinGalloisDev/Projet_14/issues">Signaler un bug</a>
+  ·
+  <a href="https://github.com/QuentinGalloisDev/Projet_14/issues">Demander une fonctionnalité</a>
+</p>
 
-In the project directory, you can run:
+## Table des matières
 
-### `npm start`
+* [À propos du projet](#à-propos-du-projet)
+  * [Technologies](#technologies)
+  * [Fonctionnalités](#fonctionnalités)
+* [Prise en main](#prise-en-main)
+  * [Prérequis](#prérequis)
+  * [Installation](#installation)
+* [Utilisation](#utilisation)
+* [Feuille de route](#feuille-de-route)
+* [Contribuer](#contribuer)
+* [Licence](#licence)
+* [Contact](#contact)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## À propos du projet
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ce projet, intitulé **Projet_14**, est une application web de gestion des employés au sein d'une entreprise. Elle permet d'ajouter, supprimer, et modifier les informations des employés de manière intuitive et efficace.
 
-### `npm test`
+### Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ce projet a été réalisé avec les technologies suivantes :
 
-### `npm run build`
+* ![React](https://img.shields.io/badge/React-v18.3.1-blue)
+* ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
+* ![HTML5](https://img.shields.io/badge/HTML5-v5.0-orange)
+* ![CSS3](https://img.shields.io/badge/CSS3-v3.0-blue)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Fonctionnalités
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Ajouter des employés** : Permet d'ajouter de nouveaux employés dans la base de données.
+- **Modifier des employés** : Mettre à jour les informations existantes des employés.
+- **Supprimer des employés** : Retirer les employés de la base de données.
+- **Rechercher des employés** : Trouver rapidement un employé grâce à la barre de recherche.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Prise en main
 
-### `npm run eject`
+Pour exécuter ce projet localement, suivez les étapes ci-dessous.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prérequis
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Assurez-vous que vous avez bien installé les éléments suivants :
+* Node.js
+* npm ou yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clonez le dépôt
 
-## Learn More
+   ```sh
+   git clone https://github.com/QuentinGalloisDev/Projet_14.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Installez les dépendances NPM
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```sh
+   npm install
 
-### Code Splitting
+3. Utilisation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  ```sh
+   npm start
+  ```
 
-### Analyzing the Bundle Size
+Ouvrez http://localhost:3000 pour visualiser l'application dans votre navigateur.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Contact
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Quentin Gallois - quentingallois@yahoo.com
