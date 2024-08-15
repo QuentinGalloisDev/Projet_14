@@ -1,8 +1,13 @@
+# Projet HrNet
+![logo HRNET removedBG](https://github.com/user-attachments/assets/464c73f6-6366-41fc-b917-3e1bcdd2bf78)
+## Before running a script, install the dependencies to be able to run the project: 'npm i' or 'yarn install'
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+### Before run 
 
 In the project directory, you can run:
 
