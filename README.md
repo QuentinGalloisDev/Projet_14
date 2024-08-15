@@ -3,8 +3,7 @@
 
 # Getting Started with Create React App
 
-This project was bootstrapped with [![image](https://github.com/user-attachments/assets/9745bca7-260b-4df7-a05a-a7c2efca0c4b)[[React.js]]
-[Create React App](https://github.com/facebook/create-react-app)]
+This project was bootstrapped with * [![React][React.js]][React-url]
 
 ## Available Scripts
 ### Before run 
@@ -69,6 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
 
 ### `npm run build` fails to minify
 
