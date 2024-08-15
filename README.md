@@ -1,8 +1,5 @@
 # Projet HrNet
 ![logo HRNET removedBG](https://github.com/user-attachments/assets/464c73f6-6366-41fc-b917-3e1bcdd2bf78)
-### Built With
-
-* [![React][React.js]][React-url]
 
 # Getting Started with Create React App
 
