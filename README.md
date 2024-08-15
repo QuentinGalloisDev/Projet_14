@@ -8,9 +8,10 @@
 
 <p align="center">
   <a href="https://github.com/QuentinGalloisDev/Projet_14">
-    <img src="https://user-images.githubusercontent.com/63110699/126578754-3aabb215-3cd0-4645-87aa-ec3f90d49d6f.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/user-attachments/assets/c4f768bb-cf22-465c-9217-65567d4ae32c" alt="Logo" width="80" height="80">
   </a>
 </p>
+
 
 <p align="center">
   Projet d'application web permettant de gérer les employés d'une entreprise.
