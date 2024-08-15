@@ -3,7 +3,8 @@
 
 # Getting Started with Create React App
 
-This project was bootstrapped with * [![React][React.js]][React-url]
+This project was bootstrapped with 
+* [![React][React.js]][React-url]
 
 ## Available Scripts
 ### Before run 
